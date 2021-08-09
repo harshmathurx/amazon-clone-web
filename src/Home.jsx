@@ -15,7 +15,7 @@ function Home() {
                     <Product title='The lean Startup' price='150' image='https://images-na.ssl-images-amazon.com/images/I/81-QB7nDh4L.jpg' rating={3} />
 
 
-                    <Product title='OnePlus Nord CE 5G (Charcoal Ink, 8GB RAM, 128GB Storage)' price='24,999.00' image='https://images-na.ssl-images-amazon.com/images/I/71LRBr1aLNS._SL1500_.jpg' rating={3} />
+                    <Product title='OnePlus Nord CE 5G (Charcoal Ink, 8GB RAM, 128GB Storage)' price='24,999' image='https://images-na.ssl-images-amazon.com/images/I/71LRBr1aLNS._SL1500_.jpg' rating={3} />
 
 
                 </div>
@@ -24,7 +24,7 @@ function Home() {
                     <Product title='The lean Startup' price='150' image='https://images-na.ssl-images-amazon.com/images/I/81-QB7nDh4L.jpg' rating={3} />
 
 
-                    <Product title='OnePlus Nord CE 5G (Charcoal Ink, 8GB RAM, 128GB Storage)' price='24,999.00' image='https://images-na.ssl-images-amazon.com/images/I/71LRBr1aLNS._SL1500_.jpg' rating={3} />
+                    <Product title='OnePlus Nord CE 5G (Charcoal Ink, 8GB RAM, 128GB Storage)' price='24,999' image='https://images-na.ssl-images-amazon.com/images/I/71LRBr1aLNS._SL1500_.jpg' rating={3} />
                     <Product title='The lean Startup' price='150' image='https://images-na.ssl-images-amazon.com/images/I/81-QB7nDh4L.jpg' rating={3} />
 
 
@@ -34,11 +34,11 @@ function Home() {
                     <Product title='The lean Startup' price='150' image='https://images-na.ssl-images-amazon.com/images/I/81-QB7nDh4L.jpg' rating={3} />
 
 
-                    <Product title='OnePlus Nord CE 5G (Charcoal Ink, 8GB RAM, 128GB Storage)' price='24,999.00' image='https://images-na.ssl-images-amazon.com/images/I/71LRBr1aLNS._SL1500_.jpg' rating={3} />
+                    <Product title='OnePlus Nord CE 5G (Charcoal Ink, 8GB RAM, 128GB Storage)' price='24,999' image='https://images-na.ssl-images-amazon.com/images/I/71LRBr1aLNS._SL1500_.jpg' rating={3} />
                     <Product title='The lean Startup' price='150' image='https://images-na.ssl-images-amazon.com/images/I/81-QB7nDh4L.jpg' rating={3} />
 
 
-                    <Product title='OnePlus Nord CE 5G (Charcoal Ink, 8GB RAM, 128GB Storage)' price='24,999.00' image='https://images-na.ssl-images-amazon.com/images/I/71LRBr1aLNS._SL1500_.jpg' rating={3} />
+                    <Product title='OnePlus Nord CE 5G (Charcoal Ink, 8GB RAM, 128GB Storage)' price='24,999' image='https://images-na.ssl-images-amazon.com/images/I/71LRBr1aLNS._SL1500_.jpg' rating={3} />
                 </div>
 
             </div>
