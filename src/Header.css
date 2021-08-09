@@ -42,6 +42,15 @@
     color: white;
 }
 
+.header__option > a{
+  display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+
 .header__nav{
     display: flex;
     justify-content: space-evenly;
