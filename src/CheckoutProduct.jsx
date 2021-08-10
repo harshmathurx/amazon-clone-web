@@ -2,7 +2,7 @@ import React from 'react'
 import './checkoutProduct.css';
 import { useBasketValue } from './StateProvider';
 
-function CheckoutProduct({ id, image, title, price, rating }) {
+function CheckoutProduct({ id, image, title, price, rating, key}) {
 
     const [{basket},dispatch] = useBasketValue();
 
@@ -10,7 +10,8 @@ function CheckoutProduct({ id, image, title, price, rating }) {
         //remove item from the basket
         dispatch({
             type: 'REMOVE_FROM_BASKET',
-            id: id
+            id: id,
+            key: key
         })
     }
 

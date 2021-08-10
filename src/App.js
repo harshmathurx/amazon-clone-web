@@ -8,6 +8,7 @@ import { useEffect } from "react";
 import Login from "./Login.jsx";
 import { auth } from "./firebase";
 import { useBasketValue } from "./StateProvider.js";
+import Payment from "./Payment";
 
 function App() {
 
@@ -40,6 +41,11 @@ function App() {
     <Router>
       <div className="app">
         <Switch>
+          <Route path='/payment'>
+            <Header />
+            <Payment />
+            {/* <h1>I am payment route</h1> */}
+          </Route>
           <Route path="/login">
             <Login />
           </Route>
