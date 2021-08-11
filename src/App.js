@@ -8,11 +8,15 @@ import { useEffect } from "react";
 import Login from "./Login.jsx";
 import { auth } from "./firebase";
 import { useBasketValue } from "./StateProvider.js";
+import { loadStripe } from "@stripe/stripe-js";
+import { Elements } from "@stripe/react-stripe-js";
 import Payment from "./Payment";
+
+const promise = loadStripe("pk_test_51JJwcwSA9GgheRdlCQ62Pjs4gijdJk1hNTJg8Y1JOhw4joYcpu7xZzUf9Ll0LiCrPcMJrkNyoYFoZTM0u9fjWyaH00dq1iuRNP");
 
 function App() {
 
-  const [{}, dispatch] = useBasketValue();
+  const [{ }, dispatch] = useBasketValue();
 
   useEffect(() => {
     //will only run once when the app component loads
@@ -43,7 +47,9 @@ function App() {
         <Switch>
           <Route path='/payment'>
             <Header />
-            <Payment />
+            <Elements stripe={promise}>
+              <Payment />
+            </Elements>
             {/* <h1>I am payment route</h1> */}
           </Route>
           <Route path="/login">
